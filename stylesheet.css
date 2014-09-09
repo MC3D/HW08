@@ -11,8 +11,32 @@
 
 
 #menu section {
-  padding-left:10px;
+  background-color:#2BA5E5;
   overflow:hidden;
-  border:solid 1px #003253;
+  box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.3);
   width:250px;
+}
+
+#menu p{
+  margin:10px 0px 8px 0px;
+}
+
+#menu a{
+  font-family:"Open Sans", sans-serif;
+  text-decoration:none;
+}
+
+#menu .artist{
+  margin:10px;
+}
+
+#menu .song{
+  padding:6px 2px 5px 11px;
+}
+
+#menu section ul{
+  list-style-type:none;
+  background-color:#CDCECD;
+  padding:0px;
+  margin:0px;
 }
