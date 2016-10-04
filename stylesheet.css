@@ -7,11 +7,12 @@
   -moz-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+  margin-left: 15px;
   background-color:#2BA5E5;
   overflow:hidden;
   box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.3);
   width:250px;
-  max-height:500px;
+  height:237px;
 }
 
 #menu section.hide {
@@ -19,46 +20,29 @@
   -moz-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  max-height:40px;
+  height:40px;
 }
 
-<<<<<<< HEAD
 #menu p{
   margin:10px 0px 8px 0px;
-=======
-.artist{
-  margin:10px;
->>>>>>> 35a621380908cc0c0eae74e7c177b28e4668d6db
-}
-
-.album{
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  list-style-type:none;
-  background-color:#CDCECD;
-  margin: 0;
-  padding:10px 10px;
-  overflow:hidden;
-  box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.3);
-  width:230px;
-  max-height:500px;
-}
-
-.album.hide {
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  max-height:25px;
-}
-
-#menu .song{
-  margin:10px 0 0 10px;
 }
 
 #menu a{
   font-family:"Open Sans", sans-serif;
   text-decoration:none;
+}
+
+#menu .artist{
+  margin:10px;
+}
+
+#menu .song{
+  padding:6px 2px 5px 11px;
+}
+
+#menu section ul{
+  list-style-type:none;
+  background-color:#CDCECD;
+  padding:0px;
+  margin:0px;
 }
