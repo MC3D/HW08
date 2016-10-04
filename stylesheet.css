@@ -1,3 +1,7 @@
+#menu {
+  text-align: -webkit-center;
+}
+
 #menu section{
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
@@ -18,10 +22,6 @@
   transition: all .5s ease-in-out;
   height:40px;
 }
-
-
-
-
 
 #menu p{
   margin:10px 0px 8px 0px;
